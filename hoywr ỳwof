@@ -3,3 +3,15 @@
 Ở lượt thứ  i, cần  (n-i) lần so sánh để xác định phần tử nhỏ nhất hiện hành
 Số lượng phép so sánh không phụ thuộc vào tình trạng của dãy số ban đầu
 Trong mọi trường hợp, số lần so sánh là:
+void Swap(int &a, int &b){
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+void InterchangeSort(int a[], int n){	
+    for (int i = 0; i < n - 1; i++)
+        for (int j = i + 1; j < n; j++)
+	        if(a[i] > a[j])  //nếu có nghịch thế thì đổi chỗ
+		        Swap(a[i], a[j]);
+}
