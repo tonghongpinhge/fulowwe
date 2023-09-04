@@ -1,0 +1,5 @@
+Đánh giá:
+
+Ở lượt thứ  i, cần  (n-i) lần so sánh để xác định phần tử nhỏ nhất hiện hành
+Số lượng phép so sánh không phụ thuộc vào tình trạng của dãy số ban đầu
+Trong mọi trường hợp, số lần so sánh là:
